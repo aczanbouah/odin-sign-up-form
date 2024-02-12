@@ -6,21 +6,30 @@
     <title>Odin Sign Up Form</title>
   </head>
   <body>
-    <form action="/" method="post">
-      <label for="first-name">First name</label>
-      <input type="text" name="first-name" id="first-name" />
-      <label for="last-name">Last name</label>
-      <input type="text" name="last-name" id="last-name" />
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" />
-      <label for="phone-number">Phone Number</label>
-      <input type="tel" name="phone-number" id="phone-number" />
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password" />
-      <label for="confirm-password">Confirm Password</label>
-      <input type="password" name="confirm-password" id="confirm-password" />
-      <button type="submit">Create Account</button>
-    </form>
+    <main>
+      <div class="sidebar-container"></div>
+      <div class="content-container">
+        <form action="/" method="post">
+          <label for="first-name">First name</label>
+          <input type="text" name="first-name" id="first-name" />
+          <label for="last-name">Last name</label>
+          <input type="text" name="last-name" id="last-name" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="phone-number">Phone Number</label>
+          <input type="tel" name="phone-number" id="phone-number" />
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+          />
+          <button type="submit">Create Account</button>
+        </form>
+      </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
