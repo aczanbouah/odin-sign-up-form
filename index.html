@@ -27,7 +27,14 @@
         </p>
       </div>
       <div class="content-container">
-        <form action="/" method="post">
+        <div class="top-section">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started. You know you want to
+          </p>
+        </div>
+        <form action="/" method="post" id="form">
           <div class="form-container">
             <div id="user-first-name">
               <label for="first-name">First name</label>
@@ -64,9 +71,11 @@
               />
             </div>
           </div>
-
-          <button type="submit">Create Account</button>
         </form>
+        <div class="bottom-section">
+          <button type="submit" form="form">Create Account</button>
+          <p>Already have an account? <a href="http://">Log in</a></p>
+        </div>
       </div>
     </main>
     <script src="app.js"></script>
