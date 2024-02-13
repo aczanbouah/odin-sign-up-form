@@ -28,22 +28,43 @@
       </div>
       <div class="content-container">
         <form action="/" method="post">
-          <label for="first-name">First name</label>
-          <input type="text" name="first-name" id="first-name" />
-          <label for="last-name">Last name</label>
-          <input type="text" name="last-name" id="last-name" />
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
-          <label for="phone-number">Phone Number</label>
-          <input type="tel" name="phone-number" id="phone-number" />
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password" />
-          <label for="confirm-password">Confirm Password</label>
-          <input
-            type="password"
-            name="confirm-password"
-            id="confirm-password"
-          />
+          <div class="form-container">
+            <div id="user-first-name">
+              <label for="first-name">First name</label>
+              <input type="text" name="first-name" id="first-name" />
+            </div>
+            <div id="user-last-name">
+              <label for="last-name">Last name</label>
+              <input type="text" name="last-name" id="last-name" />
+            </div>
+            <div id="user-email">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div id="user-phone-number">
+              <label for="phone-number">Phone Number</label>
+              <input type="tel" name="phone-number" id="phone-number" />
+            </div>
+            <div id="user-pwd">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                pattern="(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$"
+              />
+            </div>
+            <div id="user-confirm-pwd">
+              <label for="confirm-password">Confirm Password</label>
+              <input
+                type="password"
+                name="confirm-password"
+                id="confirm-password"
+                pattern="(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$"
+              />
+            </div>
+          </div>
+
           <button type="submit">Create Account</button>
         </form>
       </div>

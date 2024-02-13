@@ -129,6 +129,10 @@ main {
   height: 100vh;
 }
 
+.content-container {
+  margin: 0 2em;
+}
+
 .sidebar-container {
   position: relative;
   text-align: center;
@@ -170,4 +174,34 @@ main {
 
 a {
   color: #fff;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.form-container div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 580px;
+}
+
+input {
+  width: 250px;
+  height: 1.5em;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  box-shadow: 6px 6px 6px -8px rgba(0, 0, 0, 0.75);
+}
+
+input:focus {
+  border: 1px solid #1d4ed8;
+}
+
+input:invalid {
+  border: 1px solid #ff0000;
 }
