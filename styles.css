@@ -23,7 +23,7 @@ main {
   text-align: center;
   width: 33%;
   flex-shrink: 0;
-  background: url(img/sidebar-img.jpg);
+  background: url(/img/sidebar-img.jpg);
   background-size: cover;
 }
 
@@ -102,8 +102,12 @@ input:focus {
   border: 1px solid #1d4ed8;
 }
 
-input:invalid {
+.error {
   border: 1px solid #ff0000;
+}
+
+.error-text {
+  color: #ff0000;
 }
 
 button {
