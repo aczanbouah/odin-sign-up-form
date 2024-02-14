@@ -184,9 +184,19 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1em;
+}
+
+#form-wrapper {
   background-color: #fff;
   padding: 2em;
   box-shadow: 8px 8px 8px -8px rgba(0, 0, 0, 0.75);
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+}
+
+#form-wrapper h2 {
+  font-size: 2em;
 }
 
 .form-container div {
@@ -194,6 +204,8 @@ a {
   flex-direction: column;
   gap: 8px;
   width: 580px;
+  text-transform: uppercase;
+  color: #1f2937;
 }
 
 input {
@@ -219,8 +231,8 @@ button {
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 700;
-  appearance: none;
   width: 250px;
+  cursor: pointer;
 }
 
 .top-section,
