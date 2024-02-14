@@ -57,12 +57,7 @@
               </div>
               <div id="user-pwd">
                 <label for="password">Password</label>
-                <input
-                  type="password"
-                  name="password"
-                  id="password"
-                  pattern="(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$"
-                />
+                <input type="password" name="password" id="password" />
               </div>
               <div id="user-confirm-pwd">
                 <label for="confirm-password">Confirm Password</label>
@@ -70,14 +65,13 @@
                   type="password"
                   name="confirm-password"
                   id="confirm-password"
-                  pattern="(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$"
                 />
               </div>
             </div>
           </div>
         </form>
         <div class="bottom-section">
-          <button type="submit" form="form">Create Account</button>
+          <button id="btn" type="submit" form="form">Create Account</button>
           <p>Already have an account? <a href="http://">Log in</a></p>
         </div>
       </div>
