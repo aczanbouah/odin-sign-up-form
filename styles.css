@@ -220,4 +220,27 @@ button {
   font-size: 1rem;
   font-weight: 700;
   appearance: none;
+  width: 250px;
+}
+
+.top-section,
+.bottom-section {
+  display: flex;
+  flex-grow: 1;
+  padding: 0 2em;
+  gap: 16px;
+}
+
+.bottom-section {
+  flex-direction: column;
+}
+
+.top-section {
+  font-size: 2em;
+  justify-content: center;
+  flex-direction: column;
+}
+
+em {
+  font-style: italic;
 }
