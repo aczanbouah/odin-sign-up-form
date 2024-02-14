@@ -23,7 +23,7 @@ main {
   text-align: center;
   width: 33%;
   flex-shrink: 0;
-  background: url(/img/sidebar-img.jpg);
+  background: url(img/sidebar-img.jpg);
   background-size: cover;
 }
 
